@@ -1,0 +1,106 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e0e0e0;
+}
+
+/* Container central e quadrado */
+#container {
+  aspect-ratio: 1 / 1;
+  width: 90vmin;
+  height: 90vmin;
+  background-color: #e0e0e0;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Tabuleiro */
+#chessboard {
+  width: 90%;
+  height: 90%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+/* Todas as células e cabeçalhos */
+#chessboard td{
+  width: 12%;
+  height: 12%;
+}
+#chessboard tr{
+  /*width: 12%;*/
+  height: 12%;
+}
+#chessboard th{
+  width: 4%;
+  /*height: 0.1em;*/
+  font-size: 14px;
+}
+
+/* Cores das casas */
+td.black {
+  background-color: #5C7342;
+}
+td.white {
+  background-color: #ffffff;
+}
+
+/* Bordas internas apenas nas células do tabuleiro */
+td.cell {
+  border: 1px solid #5C7342;
+  vertical-align: center;
+  align-items: center;
+  text-align: center;
+}
+
+.cell img {
+  width: 80%;    /* A largura da imagem ocupará 100% da célula */
+  height: 80%;   /* A altura da imagem ocupará 100% da célula */
+  object-fit: contain;  /* Garante que a imagem não será distorcida */
+  vertical-align: center;
+}
+
+/* Números da esquerda */
+.label {
+  text-align: center;
+  vertical-align: middle;
+  /*font-weight: bold;
+  font-size: 14px;
+  background-color: transparent;*/
+}
+
+/* Letras abaixo do tabuleiro */
+.letters{
+  height: 17.2px;
+  text-align: top;
+  vertical-align: top;
+  /*font-weight: bold;
+  font-size: 0.9em;
+  background-color: transparent;*/
+}
+
+/*td.black.cell.selecionada {
+  box-shadow: inset 0 0 0 3px #00FF00; /* contorno interno vermelho de 3px 
+}*/
+.cell.selectedOrigin {
+  /*box-shadow: inset 0 0 0 5px #00FF00; /* contorno interno vermelho de 3px */
+  background-color: #00FF00;
+}
+.cell.possibleTarget {
+  box-shadow: inset 0 0 0 5px #00FF00; /* contorno interno vermelho de 3px */
+}
+.cell.possibleKill {
+  box-shadow: inset 0 0 0 5px #FF0000; /* contorno interno vermelho de 3px */
+}

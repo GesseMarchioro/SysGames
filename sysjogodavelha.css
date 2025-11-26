@@ -1,0 +1,108 @@
+header{				/*Cabecalho (onde esta o titulo)*/
+    /*color: #FFFFFF;							/*Cor do texto*/
+    background-color: #1f3240;						/*Cor de fundo*/
+    padding: 10px 0 0 0;							/*Padding de 4px 0 0 0 (top right bottom left)*/
+    text-align: center;							/*Alinhamento do texto no centro*/
+    									/*Adaptacao para o header não se mover com o scrool*/
+    /*position: fixed; 							/*Posicao fixa (se da scrool não se move)*/
+    top: 0; left: 0; right: 0;						/*Fica no topo, do começo da esquerda até fim da direita*/
+    margin: 0 0 0 0;
+}
+
+header img{
+  width: 220px;
+  height: 35px
+}
+
+body{ 
+    font-family: Arial, Helvetica, sans-serif; /*arial courier georgia helvetica times trebuchet verdana*/
+   	display: flex;							/*Display flex*/
+    flex-direction: column;						/*Configura que vai ser flex verticalmente*/
+    user-select: none;  -ms-user-select: none;  -moz-user-select: none;  /*Desabilita a seleção do texto dos botoes, pra não ficar estranho no celular*/
+    margin: 0;
+} 
+
+#main_grid{
+  margin: 15px 0 0 0;
+  border-collapse: collapse; /* Colapsa as bordas das células */
+  border-spacing: 0; /* Remove o espaçamento entre as células */
+  border: none;
+  padding: 0;
+}
+.mg_place{
+  /*width: 150px;
+  height: 100px;*/
+  /*border: 1px solid black;*/
+  padding: 10px;
+  border: none;
+  background-color: white;
+  text-align: center;
+  vertical-align: middle;
+}
+.mg_horizontal{
+  height: 2px;
+  border: none;
+  padding: 0;
+  background-color: black;
+}
+.mg_vertical{
+  width: 2px;
+  border: none;
+  padding: 0;
+  background-color: black;
+}
+
+.sub_grid{
+  border: none;
+  padding: 0;
+  border-collapse: collapse; /* Colapsa as bordas das células */
+  border-spacing: 0; /* Remove o espaçamento entre as células */
+  /*text-align: center;
+  vertical-align: middle;*/
+}
+
+.sg_place{
+  width: 22px;
+  height: 22px;
+  border: none;
+  padding: 0;
+  /*background-color: #FFFFFF;*/
+}
+.sg_horizontal{
+  height: 2px;
+  border: none;
+  padding: 0;
+  background-color: #404040;
+}
+.sg_vertical{
+  width: 2px;
+  border: none;
+  padding: 0;
+  background-color: #404040;
+}
+
+.finishedGames{
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  font-size: 40px;
+}
+
+#divCurrentPlayer{
+  padding: 30px 0 0 0;
+  margin: 0;
+  vertical-align: middle;
+}
+
+#divCurrentPlayer h1{
+  margin: 0px;
+  font-size: 20px;
+}
+#divCurrentPlayer div{
+  margin: 0px;
+  font-size: 50px;
+  width: auto;
+}

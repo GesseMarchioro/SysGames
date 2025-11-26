@@ -1,0 +1,109 @@
+#titulo{
+  font-family: verdana;
+	padding: 25px;
+	text-align: center;
+	border-radius: 90px 0px 90px 0px;
+	border-width: 5px;
+	border-color: blue;
+	background-color: lightblue; 
+	color: rgb(175, 74, 1);
+  font-style: italic;
+	box-shadow: inset 12px 12px 15px -3px #0088CC, /*inset coloca a sombra dentro*/
+				      inset -4px -3px 13px -2px #0088CC,
+				 	    2px 8px 07px 2px gray; /*sombra horizontal, vertical, borrao, espalhamento do borrao, cor*/
+}
+#main_grid{
+	background-color: gray;
+  border-radius: 5px 5px 5px 5px;
+}
+#quadro{
+  position: absolute;
+  top: 170px;
+  left: 20px;
+  right: 20px;
+  height: 450px;
+  /*background-color: rgba(214, 152, 27, 0.9);*/
+}
+#escritas_quadro{
+  width: 250px;
+  height: 400px;
+  text-align:center;
+  background-color: rgba(214, 152, 27, 0.9);
+  border-radius: 30px 0px 30px 0px;
+	box-shadow: inset 12px 12px 1px 0px #affc3c, /*inset coloca a sombra dentro*/
+				      inset -12px -12px 1px 0px #d9e226;
+}
+#quadro2{
+  position: absolute;
+  display: inline;
+  top: 150px;
+  left: 20px;
+  right: 20px;
+}
+#esquerda{
+  width: 250px;
+  height: 250px;
+  vertical-align: top;
+  text-align: right;
+  display: inline-block;
+  /*background-color: rgba(100, 100, 100, 0.9);*/
+}
+#grid_esquerda{
+	background-color: gray;
+  border-radius: 5px 5px 5px 5px;
+}
+#direita{
+  width: 250px;
+  height: 250px;
+  vertical-align: top;
+  text-align: left;
+  display: inline-block;
+  /*background-color: rgba(100, 100, 100, 0.9);*/
+}
+#grid_direita1{
+	background-color: gray;
+  border-radius: 5px 5px 5px 5px;
+  display: block;
+}
+#grid_direita2{
+	background-color: gray;
+  border-radius: 5px 5px 5px 5px;
+  display: block;
+}
+#grid_direita3{
+	background-color: gray;
+  border-radius: 5px 5px 5px 5px;
+  display: block;
+}
+#meio{
+  width: 320px;
+  display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******************************************************/
+body{ 
+   	font-family: arial; /*arial courier georgia helvetica times trebuchet verdana*/
+   	background-image: url("https://wellnesstransformations.com/wp-content/uploads/2017/03/universe.jpg");
+	background-repeat: repeat;
+} 

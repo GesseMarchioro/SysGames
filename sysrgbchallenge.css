@@ -1,0 +1,40 @@
+body {
+  text-align: center; 
+  font-family: Arial, sans-serif; 
+  margin: 0 0 0 0;
+}
+        
+#color-box { 
+  width: 200px; 
+  height: 200px; 
+  margin: 20px auto; 
+  border: 2px solid black; 
+}
+        
+.player { 
+  display: inline-block; 
+  margin: 20px; 
+}
+        
+.color-preview { 
+  width: 50px; 
+  height: 50px; 
+  border: 1px solid black; 
+  display: none; 
+}  
+
+header{				/*Cabecalho (onde esta o titulo)*/
+    /*color: #FFFFFF;							/*Cor do texto*/
+    background-color: #1f3240;						/*Cor de fundo*/
+    padding: 10px 0 0 0;							/*Padding de 4px 0 0 0 (top right bottom left)*/
+    text-align: center;							/*Alinhamento do texto no centro*/
+    									/*Adaptacao para o header não se mover com o scrool*/
+    /*position: fixed; 							/*Posicao fixa (se da scrool não se move)*/
+    top: 0; left: 0; right: 0;						/*Fica no topo, do começo da esquerda até fim da direita*/
+    margin: 0 0 0 0;
+}
+
+header img{
+  width: 234px;
+  height: 35px
+}

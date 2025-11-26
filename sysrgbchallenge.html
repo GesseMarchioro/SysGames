@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <link rel="stylesheet" href="sysrgbchallenge.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SysRGBChallenge</title>
+  <link rel="icon" type="imagem/png" href="https://cdn.glitch.global/30a440a5-7bb4-439e-90a6-a1017140361f/S.png?v=1749089537266"/>
+    
+  </head>
+  
+<body>
+    <!-- <h1>Adivinhe a Cor!</h1>  -->
+  <header>
+    <div>
+      <img src="https://cdn.glitch.global/30a440a5-7bb4-439e-90a6-a1017140361f/SYSRGBChallenge.png?v=1749089544032" alt="SysRGBChallenge" width="438" height="70">
+    </div>
+  </header>
+    <div id="color-box"></div>
+    <div id="color-box-result">
+        R: <input type="number" id="rTarget" min="0" max="255" readonly> 
+        G: <input type="number" id="gTarget" min="0" max="255" readonly> 
+        B: <input type="number" id="bTarget" min="0" max="255" readonly>
+    </div>
+  
+    <div class="player" id="player1">
+        <h2>Jogador 1</h2>
+        R: <input type="number" id="r1" min="0" max="255"> 
+        G: <input type="number" id="g1" min="0" max="255"> 
+        B: <input type="number" id="b1" min="0" max="255">
+        <div class="color-preview" id="preview1"></div>
+        <br><br>
+        <button onclick="gravarJ1()" id="buttonSaveP1">Gravar</button>
+    </div>
+    <div class="player" id="player2">
+        <h2>Jogador 2</h2>
+        R: <input type="number" id="r2" min="0" max="255"> 
+        G: <input type="number" id="g2" min="0" max="255"> 
+        B: <input type="number" id="b2" min="0" max="255">
+        <div class="color-preview" id="preview2"></div>
+        <br><br>
+        <button onclick="gravarJ2()" id="buttonSaveP2">Gravar</button>
+    </div>
+    <br>
+
+  
+    <h2 id="resultado"></h2>
+    
+  
+    <script type="text/javascript" src="sysrgbchallenge.js"></script>
+</body>
+</html>
