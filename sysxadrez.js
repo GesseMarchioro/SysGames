@@ -385,18 +385,18 @@ function updateSelectionTable(row, col, piece, color){
 const HTMLCells = document.querySelectorAll('.cell');
 
 const piecesImagesSrc = [];
-piecesImagesSrc[11] = 'https://cdn.glitch.global/30a440a5-7bb4-439e-90a6-a1017140361f/11.png?v=1749089599494';
-piecesImagesSrc[12] = 'https://cdn.glitch.global/30a440a5-7bb4-439e-90a6-a1017140361f/12.png?v=1749089601572';
-piecesImagesSrc[13] = 'https://cdn.glitch.global/30a440a5-7bb4-439e-90a6-a1017140361f/13.png?v=1749089603866';
-piecesImagesSrc[14] = 'https://cdn.glitch.global/30a440a5-7bb4-439e-90a6-a1017140361f/14.png?v=1749089606856';
-piecesImagesSrc[15] = 'https://cdn.glitch.global/30a440a5-7bb4-439e-90a6-a1017140361f/15.png?v=1749089609777';
-piecesImagesSrc[16] = 'https://cdn.glitch.global/30a440a5-7bb4-439e-90a6-a1017140361f/16.png?v=1749089612366';
-piecesImagesSrc[21] = 'https://cdn.glitch.global/30a440a5-7bb4-439e-90a6-a1017140361f/21.png?v=1749089614855';
-piecesImagesSrc[22] = 'https://cdn.glitch.global/30a440a5-7bb4-439e-90a6-a1017140361f/22.png?v=1749089617144';
-piecesImagesSrc[23] = 'https://cdn.glitch.global/30a440a5-7bb4-439e-90a6-a1017140361f/23.png?v=1749089620937';
-piecesImagesSrc[24] = 'https://cdn.glitch.global/30a440a5-7bb4-439e-90a6-a1017140361f/24.png?v=1749089623971';
-piecesImagesSrc[25] = 'https://cdn.glitch.global/30a440a5-7bb4-439e-90a6-a1017140361f/25.png?v=1749089626409';
-piecesImagesSrc[26] = 'https://cdn.glitch.global/30a440a5-7bb4-439e-90a6-a1017140361f/26.png?v=1749089630083';
+piecesImagesSrc[11] = 'https://raw.githubusercontent.com/GesseMarchioro/SysGames/refs/heads/main/PecasXadrez/11.png';
+piecesImagesSrc[12] = 'https://raw.githubusercontent.com/GesseMarchioro/SysGames/refs/heads/main/PecasXadrez/12.png';
+piecesImagesSrc[13] = 'https://raw.githubusercontent.com/GesseMarchioro/SysGames/refs/heads/main/PecasXadrez/13.png';
+piecesImagesSrc[14] = 'https://raw.githubusercontent.com/GesseMarchioro/SysGames/refs/heads/main/PecasXadrez/14.png';
+piecesImagesSrc[15] = 'https://raw.githubusercontent.com/GesseMarchioro/SysGames/refs/heads/main/PecasXadrez/15.png';
+piecesImagesSrc[16] = 'https://raw.githubusercontent.com/GesseMarchioro/SysGames/refs/heads/main/PecasXadrez/16.png';
+piecesImagesSrc[21] = 'https://raw.githubusercontent.com/GesseMarchioro/SysGames/refs/heads/main/PecasXadrez/21.png';
+piecesImagesSrc[22] = 'https://raw.githubusercontent.com/GesseMarchioro/SysGames/refs/heads/main/PecasXadrez/22.png';
+piecesImagesSrc[23] = 'https://raw.githubusercontent.com/GesseMarchioro/SysGames/refs/heads/main/PecasXadrez/23.png';
+piecesImagesSrc[24] = 'https://raw.githubusercontent.com/GesseMarchioro/SysGames/refs/heads/main/PecasXadrez/24.png';
+piecesImagesSrc[25] = 'https://raw.githubusercontent.com/GesseMarchioro/SysGames/refs/heads/main/PecasXadrez/25.png';
+piecesImagesSrc[26] = 'https://raw.githubusercontent.com/GesseMarchioro/SysGames/refs/heads/main/PecasXadrez/26.png';
 
 const piecesImages = [];
 for (let r = 0; r < 8; r++) {
