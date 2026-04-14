@@ -385,7 +385,7 @@ function updateSelectionTable(row, col, piece, color){
 const HTMLCells = document.querySelectorAll('.cell');
 
 const piecesImagesSrc = [];
-piecesImagesSrc[11] = 'raw.githubusercontent.com/GesseMarchioro/SysGames/refs/heads/main/PecasXadrez/11.png';
+piecesImagesSrc[11] = 'https://raw.githubusercontent.com/GesseMarchioro/SysGames/refs/heads/main/PecasXadrez/11.png';
 piecesImagesSrc[12] = 'https://raw.githubusercontent.com/GesseMarchioro/SysGames/refs/heads/main/PecasXadrez/12.png';
 piecesImagesSrc[13] = 'https://raw.githubusercontent.com/GesseMarchioro/SysGames/refs/heads/main/PecasXadrez/13.png';
 piecesImagesSrc[14] = 'https://raw.githubusercontent.com/GesseMarchioro/SysGames/refs/heads/main/PecasXadrez/14.png';
